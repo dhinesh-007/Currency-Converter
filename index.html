@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <header>
+        <h1>Currency Converter</h1>
+        <p>Let's Exchange Currency Value Across The World</p>
+      </header>
+      <section>
+        <div class="container">
+          <p>From</p>
+          <select name="from" id="from">
+            <option value="USD">USD</option>
+          </select>
+          <p>To</p>
+          <select name="to" id="to">
+            <option value="INR">INR</option>
+          </select>
+
+          <div class="value">
+            <input type="number" name="value" id="value" placeholder="Enter the amount">
+          </div>
+          <button type="submit" id="btn" onclick="exchanges()">Exchange</button>
+          <p id="display"></p>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

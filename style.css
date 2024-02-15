@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&family=Poppins&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Permanent+Marker&family=Satisfy&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Lobster&family=Permanent+Marker&family=Satisfy&family=Workbench&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+  background-image: url("https://c1.wallpaperflare.com/preview/526/841/286/mixture-currencies-finance-business.jpg");
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+.box {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.7px);
+  -webkit-backdrop-filter: blur(10.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+select {
+  padding: 5px;
+}
+
+.value {
+  margin-top: 10px;
+}
+
+input[type="number"] {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+button:hover {
+  background-color: #0056b3;
+  
+}
+
+#display {
+  display: block;
+  margin-top: 20px;
+  font-family: "Kalam", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header{
+  text-align: center;
+  color:black;
+}
+header p{
+  padding: 5px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+header h1{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
